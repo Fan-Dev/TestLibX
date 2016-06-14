@@ -3,6 +3,8 @@
 ###组件通讯，订阅者
 	1. EventBus
 	2. RXJava
+	    参照:
+		http://gank.io/post/560e15be2dca930e00da1083
 	
 ###网络请求
 	1. retrofit
