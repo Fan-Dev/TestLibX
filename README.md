@@ -4,8 +4,8 @@
 	1. EventBus
 	2. RXJava
 	    参照:
-		[给 Android 开发者的 RxJava 详解]:(http://gank.io/post/560e15be2dca930e00da1083)
-		[RxJava 与 Retrofit 结合的最佳实践] (http://gank.io/post/56e80c2c677659311bed9841)
+		[给 Android 开发者的 RxJava 详解](http://gank.io/post/560e15be2dca930e00da1083)
+		[RxJava 与 Retrofit 结合的最佳实践](http://gank.io/post/56e80c2c677659311bed9841)
 	
 ###网络请求
 	1. retrofit
