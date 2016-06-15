@@ -6,6 +6,8 @@
 	    参照:
 		[给 Android 开发者的 RxJava 详解](http://gank.io/post/560e15be2dca930e00da1083)
 		[RxJava 与 Retrofit 结合的最佳实践](http://gank.io/post/56e80c2c677659311bed9841)
+		[对RxJava中.repeatWhen()和.retryWhen()操作符的思考](http://www.open-open.com/lib/view/open1454895890823.html)
+		[Android RxJava使用介绍（二） RxJava的操作符](http://blog.csdn.net/job_hesc/article/details/46242117)
 	
 ###网络请求
 	1. retrofit
