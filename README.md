@@ -38,3 +38,8 @@
 	参考:
 		http://androidflux.github.io/docs/overview.html#content
 
+###框架整合，参照资料
+	1.http://www.cnblogs.com/shuijilove/p/5316971.html
+	2.https://github.com/CaMnter/EasyGank
+	3.http://www.zhihu.com/question/35511144
+	4.http://www.jianshu.com/p/2b0aeb6b6b61
