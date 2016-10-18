@@ -100,11 +100,15 @@ public class MainTest {
             public okhttp3.Response intercept(Chain chain) throws IOException {
                 //获得请求信息，此处如有需要可以添加headers信息
                 Request request = chain.request();
-                request.newBuilder().addHeader("Cookie","aaaa");
+                request = request.newBuilder().addHeader("Cookie", "aaaa").build();
                 //打印请求信息
                 syso("url:" + request.url());
                 syso("method:" + request.method());
                 syso("body:" + request.body());
+
+                syso("request的Headers==========");
+                Headers requestHeaders = request.headers();
+                syso(requestHeaders.toString());
 
                 //记录请求耗时
                 long startNs = System.nanoTime();
@@ -119,9 +123,7 @@ public class MainTest {
                 //打印请求耗时
                 syso("耗时:"+tookMs+"ms");
 
-                syso("headers==========");
-                Headers headers = response.headers();
-                syso(headers.toString());
+                syso("响应代码:" + response.code() + "，响应消息:" + response.message());
 
                 //获得返回的body，注意此处不要使用responseBody.string()获取返回数据，原因在于这个方法会消耗返回结果的数据(buffer)
                 ResponseBody responseBody = response.body();
